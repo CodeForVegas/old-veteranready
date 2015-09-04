@@ -1,0 +1,34 @@
+{
+  "name": "veteranready",
+  "version": "1.0.0",
+  "description": "Veteran Ready site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeForVegas/veteranready.git"
+  },
+  "keywords": [
+    "veteran",
+    "las",
+    "vegas"
+  ],
+  "author": "Code for Vegas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeForVegas/veteranready/issues"
+  },
+  "homepage": "https://github.com/CodeForVegas/veteranready#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "morgan": "~1.6.1",
+    "serve-favicon": "~2.3.0"
+  }
+}
