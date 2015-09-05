@@ -1,12 +1,26 @@
 <html>
     {{>head}}
     <body>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    {{{ body }}}
-                </div>
-            </div>
+      <div class="text-center" style="background-color: green; margin-left: 10%; margin-right: 10%; margin-top: 0%">
+        <div id="header">
+          <div class="bluebar">&nbsp;</div>
+
+          <div id="logo"><img src="/images/logo.png" width="106" height="84"></div>
+          <div id="logo-text">
+            <h1>VeteranReady</h1>
+            Building Veteran Strong Communities
+
+          </div>
+          <div>
+            <button>Home</button>
+            <button>Events</button>
+            <button>Vet Mentorship</button>
+            <button>Contact</button>
+          </div>
         </div>
+        <div id="content">
+          {{{ body }}}
+        </div>
+      </div>
     </body>
 </html>
