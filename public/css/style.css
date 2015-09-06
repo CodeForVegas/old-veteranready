@@ -102,5 +102,37 @@ a {
 }
 
 #header h1 {
-  font-size: 35px
+  font-size: 35px;
+}
+
+/* Everything below is intended for index.hbs. Id of #index? */
+
+.container {
+  margin: 20px;
+}
+
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
+}
+
+.container .jumbotron,
+.container-fluid .jumbotron {
+  border-radius: 6px;
+}
+
+
+.jumbotron h1 {
+  font-size: 21px;
+  color: #4F7942;
+}
+
+.jumbotron h2 {
+  font-size: 18px;
+  color: #4F7942;
 }
