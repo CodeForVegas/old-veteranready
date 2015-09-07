@@ -68,11 +68,13 @@ a {
   border-left: 1px solid rgba(0, 46, 93, 1);
   border-right: 1px solid rgba(0, 46, 93, 1);
   display: flex;
+  display: -webkit-flex; 
   flex-direction: row;
   background-color: white;
   padding: 10px 5px 10px 5px;
   color: #4F7942;
   align-items: center;
+  -webkit-align-items: center;
   height: 94px;
 
 
@@ -108,7 +110,7 @@ a {
 /* Everything below is intended for index.hbs. Id of #index? */
 
 .container {
-  margin: 20px;
+  margin: auto;
 }
 
 .jumbotron {
@@ -116,7 +118,9 @@ a {
   border-bottom: 1px solid black;
   padding-top: 30px;
   padding-bottom: 30px;
-  margin-bottom: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 30px;
   color: inherit;
   background-color: #eee;
 }
@@ -135,4 +139,27 @@ a {
 .jumbotron h2 {
   font-size: 18px;
   color: #4F7942;
+}
+
+.col-md-6 {
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 95%;
+}
+
+#left {
+  width: 50%;
+  float: left;
+  height: auto;
+}
+
+#left .jumbotron {
+  margin-bottom: 80px;
+}
+
+#right {
+  width: 50%;
+  float: left;
+  height: auto;
 }
