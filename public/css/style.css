@@ -68,12 +68,13 @@ a {
   border-left: 1px solid rgba(0, 46, 93, 1);
   border-right: 1px solid rgba(0, 46, 93, 1);
   display: flex;
-  display: -webkit-flex; 
+  display: -webkit-flex;
   flex-direction: row;
   background-color: white;
   padding: 10px 5px 10px 5px;
   color: #4F7942;
   align-items: center;
+  align-content: stretch;
   -webkit-align-items: center;
   height: 94px;
 
@@ -111,6 +112,21 @@ a {
 
 .container {
   margin: auto;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
 }
 
 .jumbotron {
@@ -152,6 +168,26 @@ a {
   width: 50%;
   float: left;
   height: auto;
+}
+
+.flexbox {
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+}
+
+.top-content {
+  margin-top: 10px;
+  width: 30%;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: white;
 }
 
 #left .jumbotron {
