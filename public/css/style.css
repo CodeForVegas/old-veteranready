@@ -74,7 +74,7 @@ a {
   padding: 10px 5px 10px 5px;
   color: #4F7942;
   align-items: center;
-  align-content: stretch;
+  align-content: flex-start;
   -webkit-align-items: center;
   height: 94px;
 
@@ -112,6 +112,9 @@ a {
 
 .container {
   margin: auto;
+}
+
+.flextop {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
